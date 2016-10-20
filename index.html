@@ -33,7 +33,7 @@
 	<script src="https://inscript.bible.cloud/build/app.js?v=4.0.0"></script>
 	<script>
 		sofia.config = $.extend(sofia.config, {
-			siteTitle: 'El Bishara',
+			siteTitle: 'البشازة ‎',
     		windows: [
     			{type: 'bible',data: {textid: 'ARZVDV',fragmentid: 'JN1_1'}}
         	],
@@ -58,7 +58,7 @@
             enableAmericanBibleSociety: true,
             eng2pEnableAll: false,
             deafCentric: false,
-            enableDeafBibleWindow: false,
+            enableDeafBibleWindow: true,
             deafBibleWindowDefaultBibleVersion: 'ASESLV'
 
 		});
@@ -75,6 +75,35 @@
 	.main-menu-item {
 		width:100px;
 	}
+	.main-menu-item,
+	#main-menu-button {
+		float:right;
+	}
+	#main-fullscreen-button {
+		left: 15px;
+		right:auto;
+	}
+	#main-search-input {
+		float:left;
+	}
+	#main-search-box {
+		left: 60px;
+		right: auto;
+	}
+	#main-search-button {
+		left:0;
+		position: absolute;
+	}
+	#app-logo {
+		right:60px;
+		left: auto;
+	}
+
+	#main-menu-dropdown {
+		right:0;
+		left:auto;
+	}
+
 	</style>
 
     <!-- Fallback -->

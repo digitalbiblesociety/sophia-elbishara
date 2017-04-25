@@ -26,11 +26,16 @@
     <meta name="msapplication-config" content="//images.bible.cloud/icons-bc/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+	<style>
+		#main-config-box {
+			direction: rtl;
+		}
+	</style>
 
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<link rel="stylesheet" href="https://inscript.bible.cloud/build/app-20170308.css?v=4.0.2" />
+	<link rel="stylesheet" href="https://inscript.bible.cloud/build/app.css?v=4.0.3" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="https://inscript.bible.cloud/build/app-20170308.js?v=4.0.2"></script>
+	<script src="https://inscript.bible.cloud/build/app.js?v=4.0.3"></script>
 	<script>
 		sofia.config = $.extend(sofia.config, {
 			siteTitle: 'البشارة',
@@ -39,8 +44,10 @@
         	],
     		defaultLanguage: 'ar',
     		pinnedLanguage: 'ar',
+			fontSizeLetter: 'ع',
+			fontTypeLetters: 'الخط',
 
-            settingsPrefix: '20170308',
+			settingsPrefix: '20170308',
             enableBibleSelectorTabs: false,
             textsIndexPath: 'dbs_texts.json',
             bibleSelectorDefaultList: ['ARZVDV','ARAWTC','ARZNAV','ENGESV','HBOWLC','GRCTIS'],

@@ -36,41 +36,19 @@
 	<link rel="stylesheet" href="https://inscript.bible.cloud/build/app.css?v=4.0.3" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="https://inscript.bible.cloud/build/app.js?v=4.0.3"></script>
+	<script src="https://inscript.bible.cloud/build/config-basePaths.js"></script>
+	<script src="https://inscript.bible.cloud/build/config-baseSettings.js"></script>
 	<script>
 		sofia.config = $.extend(sofia.config, {
 			siteTitle: 'البشارة',
     		windows: [
-    			{type: 'bible',data: {textid: 'ARZVDV',fragmentid: 'JN1_1'}}
+    			{type: 'bible',data: {textid: 'ARZNAV',fragmentid: 'JN1_1'}}
         	],
     		defaultLanguage: 'ar',
     		pinnedLanguage: 'ar',
 			fontSizeLetter: 'ع',
 			fontTypeLetters: 'الخط',
-
-			settingsPrefix: '20170308',
-            enableBibleSelectorTabs: false,
-            textsIndexPath: 'dbs_texts.json',
-            bibleSelectorDefaultList: ['ARZVDV','ARAWTC','ARZNAV','ENGESV','HBOWLC','GRCTIS'],
-            enableBibleSelectorTabs: true,
-            baseContentUrl: 'https://inscript.bible.cloud/',
-			baseAPIUrl: 'https://api.bible.cloud/',
-			dbpBaseUrl: 'https://api.bible.cloud/bible/partners/fcbh/handshake/',
-            serverSearchPath: 'https://api.bible.cloud/bible/study/search/',
-            absUrl: 'https://api.bible.cloud/bible/partners/abs/',
-            enableOnlineSources: true,
-            enableFeedback: true,
-            feedbackUrl: 'https://bible.cloud/feedback/',
-            newCommentaryWindowTextId: "comm_eng_tske",
-            fcbhKey: '111a125057abd2f8931f6d6ad9f2921f',
-            jfmKey: '52b06248a3c6e8.12980089',
-			gaKey: 'UA-75606747-4',
-			gaUrl: 'elbishara.org',
-            enableAmericanBibleSociety: true,
-            eng2pEnableAll: false,
-            deafCentric: false,
-            enableDeafBibleWindow: true,
-            deafBibleWindowDefaultBibleVersion: 'ASESLV'
-
+			gaUrl: 'elbishara.org'
 		});
 	</script>
 	<style>
